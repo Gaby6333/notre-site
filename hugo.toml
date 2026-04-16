@@ -1,0 +1,7 @@
+baseURL = "https://Gaby6333.github.io/notre-site/"
+languageCode = "fr-ca"
+title = "Nos aventures"
+theme = "PaperMod"
+
+[params]
+  homeInfoParams = {Title = "Bienvenue 👋", Content = "Les aventures de Gaby et Léonie"}
