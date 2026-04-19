@@ -6,6 +6,35 @@
     <description>Recent content in Tags on Nos aventures</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
+    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/notre-site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avril</title>
+      <link>http://localhost:1313/notre-site/tags/avril/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notre-site/tags/avril/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decembre</title>
+      <link>http://localhost:1313/notre-site/tags/decembre/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notre-site/tags/decembre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Famille</title>
+      <link>http://localhost:1313/notre-site/tags/famille/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notre-site/tags/famille/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Noel</title>
+      <link>http://localhost:1313/notre-site/tags/noel/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notre-site/tags/noel/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
