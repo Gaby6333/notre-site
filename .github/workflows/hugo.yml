@@ -1,34 +1,21 @@
-baseURL = "https://Gaby6333.github.io/notre-site/"
-languageCode = "fr-ca"
-title = "Nos aventures"
-theme = "PaperMod"
+name: Deploy Hugo site
 
-[params]
-  homeInfoParams = {Title = "Bienvenue 👋", Content = "Les aventures de Gaby et Léonie"}
-  ShowCategories = true
-  ShowTags = true
-  ShowReadingTime = false
+on:
+  push:
+    branches: [main]
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-
-[[menus.main]]
-  name = "Activités"
-  url = "/categories/activités/"
-  weight = 1
-
-[[menus.main]]
-  name = "Restos"
-  url = "/categories/restos/"
-  weight = 2
-
-[[menus.main]]
-  name = "Voyages"
-  url = "/categories/voyages/"
-  weight = 3
-
-[[menus.main]]
-  name = "Quotidien"
-  url = "/categories/quotidien/"
-  weight = 4
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
