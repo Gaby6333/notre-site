@@ -2,38 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Nos aventures</title>
-    <link>http://localhost:1313/notre-site/tags/</link>
+    <link>https://Gaby6333.github.io/notre-site/tags/</link>
     <description>Recent content in Tags on Nos aventures</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/notre-site/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Avril</title>
-      <link>http://localhost:1313/notre-site/tags/avril/</link>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notre-site/tags/avril/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Gaby6333.github.io/notre-site/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Decembre</title>
-      <link>http://localhost:1313/notre-site/tags/decembre/</link>
-      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notre-site/tags/decembre/</guid>
+      <link>https://Gaby6333.github.io/notre-site/tags/decembre/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://Gaby6333.github.io/notre-site/tags/decembre/</guid>
       <description></description>
     </item>
     <item>
       <title>Famille</title>
-      <link>http://localhost:1313/notre-site/tags/famille/</link>
-      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notre-site/tags/famille/</guid>
+      <link>https://Gaby6333.github.io/notre-site/tags/famille/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://Gaby6333.github.io/notre-site/tags/famille/</guid>
       <description></description>
     </item>
     <item>
       <title>Noel</title>
-      <link>http://localhost:1313/notre-site/tags/noel/</link>
-      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notre-site/tags/noel/</guid>
+      <link>https://Gaby6333.github.io/notre-site/tags/noel/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://Gaby6333.github.io/notre-site/tags/noel/</guid>
       <description></description>
     </item>
   </channel>

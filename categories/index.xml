@@ -2,24 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Nos aventures</title>
-    <link>http://localhost:1313/notre-site/categories/</link>
+    <link>https://Gaby6333.github.io/notre-site/categories/</link>
     <description>Recent content in Categories on Nos aventures</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/notre-site/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Activités</title>
-      <link>http://localhost:1313/notre-site/categories/activit%C3%A9s/</link>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notre-site/categories/activit%C3%A9s/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Gaby6333.github.io/notre-site/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quotidien</title>
-      <link>http://localhost:1313/notre-site/categories/quotidien/</link>
-      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notre-site/categories/quotidien/</guid>
+      <link>https://Gaby6333.github.io/notre-site/categories/quotidien/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://Gaby6333.github.io/notre-site/categories/quotidien/</guid>
       <description></description>
     </item>
   </channel>
