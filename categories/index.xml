@@ -6,6 +6,21 @@
     <description>Recent content in Categories on Nos aventures</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
+    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/notre-site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Activités</title>
+      <link>http://localhost:1313/notre-site/categories/activit%C3%A9s/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notre-site/categories/activit%C3%A9s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quotidien</title>
+      <link>http://localhost:1313/notre-site/categories/quotidien/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notre-site/categories/quotidien/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
