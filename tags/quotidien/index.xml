@@ -1,36 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Nos aventures</title>
-    <link>https://Gaby6333.github.io/notre-site/posts/</link>
-    <description>Recent content in Posts on Nos aventures</description>
+    <title>Quotidien on Nos aventures</title>
+    <link>https://Gaby6333.github.io/notre-site/tags/quotidien/</link>
+    <description>Recent content in Quotidien on Nos aventures</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://Gaby6333.github.io/notre-site/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Noël 2025</title>
-      <link>https://Gaby6333.github.io/notre-site/posts/2025-12/noel/</link>
-      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://Gaby6333.github.io/notre-site/posts/2025-12/noel/</guid>
-      <description>&lt;div style=&#34;background: linear-gradient(135deg, #c0392b, #e74c3c, #e67e22); border-radius: 16px; padding: 24px; margin-bottom: 32px; text-align: center;&#34;&gt;
-&lt;p style=&#34;color: white; font-size: 1.3em; margin: 0; font-weight: bold;&#34;&gt;🎄 Noël 2025 en famille 🎁&lt;/p&gt;
-&lt;p style=&#34;color: rgba(255,255,255,0.85); margin: 8px 0 0;&#34;&gt;Une belle soirée à bien manger, bien rire, et profiter ensemble ❤️&lt;/p&gt;
-&lt;/div&gt;
-&lt;img src=&#34;../../../images/2025-12/20251213_214049705_iOS.jpg&#34; style=&#34;width:100%; border-radius:14px; margin-bottom:12px;&#34;&gt;
-&lt;div style=&#34;display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; margin-top:4px;&#34;&gt;
-&lt;div style=&#34;text-align:center;&#34;&gt;
-&lt;img src=&#34;../../../images/2025-12/20251214_130300331_iOS.jpg&#34; style=&#34;width:100%; border-radius:10px; aspect-ratio:1/1; object-fit:cover;&#34;&gt;
-&lt;p style=&#34;font-size:0.8em; color:#aaa; margin-top:6px; font-style:italic;&#34;&gt;Toute la famille 🥰&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&#34;text-align:center;&#34;&gt;
-&lt;img src=&#34;../../../images/2025-12/20251214_130310857_iOS.jpg&#34; style=&#34;width:100%; border-radius:10px; aspect-ratio:1/1; object-fit:cover;&#34;&gt;
-&lt;p style=&#34;font-size:0.8em; color:#aaa; margin-top:6px; font-style:italic;&#34;&gt;La belle gang 🎉&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&#34;text-align:center;&#34;&gt;
-&lt;img src=&#34;../../../images/2025-12/20251214_130310888_iOS.jpg&#34; style=&#34;width:100%; border-radius:10px; aspect-ratio:1/1; object-fit:cover;&#34;&gt;
-&lt;p style=&#34;font-size:0.8em; color:#aaa; margin-top:6px; font-style:italic;&#34;&gt;Le souper 🍽️&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Gaby6333.github.io/notre-site/tags/quotidien/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Novembre 2025</title>
       <link>https://Gaby6333.github.io/notre-site/posts/2025-11/novembre/</link>

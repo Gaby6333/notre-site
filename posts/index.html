@@ -165,6 +165,23 @@ Le souper 🍽️
   <footer class="entry-footer"><span title='2025-12-25 00:00:00 +0000 UTC'>December 25, 2025</span></footer>
   <a class="entry-link" aria-label="post link to Noël 2025" href="https://Gaby6333.github.io/notre-site/posts/2025-12/noel/"></a>
 </article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://Gaby6333.github.io/notre-site/images/2025-11/20251101_151947970_iOS.jpg" alt="Novembre 2025">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Novembre 2025
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> 🍂 Novembre 2025 🍂
+Notre quotidien du mois de novembre ❤️
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-11-01 00:00:00 +0000 UTC'>November 1, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to Novembre 2025" href="https://Gaby6333.github.io/notre-site/posts/2025-11/novembre/"></a>
+</article>
     </main>
     
 <footer class="footer">
@@ -182,7 +199,62 @@ Le souper 🍽️
         <polyline points="17 11 12 6 7 11"></polyline>
         <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
-</a>
+</a><style>
+#lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.85);
+  z-index: 9999;
+  cursor: zoom-out;
+  align-items: center;
+  justify-content: center;
+}
+#lightbox-overlay.open { display: flex; }
+#lightbox-overlay img {
+  max-width: 92vw;
+  max-height: 92vh;
+  border-radius: 4px;
+  box-shadow: 0 8px 40px rgba(0,0,0,.6);
+  cursor: default;
+}
+.post-content img { cursor: zoom-in; }
+</style>
+
+<div id="lightbox-overlay" role="dialog" aria-modal="true">
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+(function () {
+  const overlay = document.getElementById('lightbox-overlay');
+  const lbImg   = document.getElementById('lightbox-img');
+
+  function open(src, alt) {
+    lbImg.src = src;
+    lbImg.alt = alt || '';
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function close() {
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+    lbImg.src = '';
+  }
+
+  overlay.addEventListener('click', function (e) {
+    if (e.target !== lbImg) close();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') close();
+  });
+
+  document.querySelectorAll('.post-content img').forEach(function (img) {
+    img.addEventListener('click', function () { open(img.src, img.alt); });
+  });
+})();
+</script>
+
 
 <script>
     let menu = document.getElementById('menu');

@@ -167,7 +167,62 @@ Le souper 🍽️
         <polyline points="17 11 12 6 7 11"></polyline>
         <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
-</a>
+</a><style>
+#lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.85);
+  z-index: 9999;
+  cursor: zoom-out;
+  align-items: center;
+  justify-content: center;
+}
+#lightbox-overlay.open { display: flex; }
+#lightbox-overlay img {
+  max-width: 92vw;
+  max-height: 92vh;
+  border-radius: 4px;
+  box-shadow: 0 8px 40px rgba(0,0,0,.6);
+  cursor: default;
+}
+.post-content img { cursor: zoom-in; }
+</style>
+
+<div id="lightbox-overlay" role="dialog" aria-modal="true">
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+(function () {
+  const overlay = document.getElementById('lightbox-overlay');
+  const lbImg   = document.getElementById('lightbox-img');
+
+  function open(src, alt) {
+    lbImg.src = src;
+    lbImg.alt = alt || '';
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function close() {
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+    lbImg.src = '';
+  }
+
+  overlay.addEventListener('click', function (e) {
+    if (e.target !== lbImg) close();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') close();
+  });
+
+  document.querySelectorAll('.post-content img').forEach(function (img) {
+    img.addEventListener('click', function () { open(img.src, img.alt); });
+  });
+})();
+</script>
+
 
 <script>
     let menu = document.getElementById('menu');
