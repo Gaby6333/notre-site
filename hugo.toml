@@ -14,23 +14,27 @@ theme = "PaperMod"
   tag = "tags"
 
 [[menus.main]]
+  identifier = "menu-activites"
   name = "Activités"
-  url = "/categories/activités/"
+  url = "categories/activit%C3%A9s/"
   weight = 1
 
 [[menus.main]]
+  identifier = "menu-restos"
   name = "Restos"
-  url = "/categories/restos/"
+  url = "categories/restos/"
   weight = 2
 
 [[menus.main]]
+  identifier = "menu-voyages"
   name = "Voyages"
-  url = "/categories/voyages/"
+  url = "categories/voyages/"
   weight = 3
 
 [[menus.main]]
+  identifier = "menu-quotidien"
   name = "Quotidien"
-  url = "/categories/quotidien/"
+  url = "categories/quotidien/"
   weight = 4
 
 [markup.goldmark.renderer]
